@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>FastFood Ajha</title>
+  </head>
+  <body>
+    <!-------------------------------------------- HEADER SECTION -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="./image/download.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="./about.html">tentang</a>
+        <a href="./menu.html">menu</a>
+        <a href="./products.html">produk</a>
+        <a href="./review.html">review</a>
+        <a href="./contact.html" class="active">Kontak</a>
+        <a href="./blog.html">blog</a>
+      </nav>
+      <div class="buttons">
+        <button id="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+        <button id="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="search-form">
+        <input type="text" class="search-input" id="search-box" placeholder="Search" />
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="./image/pngwing.com (1).png" alt="menu" />
+          <div class="content">
+            <h3>Pizza Medium</h3>
+            <div class="price">Rp 40.000</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="./image/pngwing.com (2).png" alt="menu" />
+          <div class="content">
+            <h3>Burger Isi Maut</h3>
+            <div class="price">Rp 30.000</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="./image/pngwing.com (3).png" alt="menu" />
+          <div class="content">
+            <h3>Burger Medium</h3>
+            <div class="price">Rp 20.000</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="./image/pngwing.com (4).png" alt="menu" />
+          <div class="content">
+            <h3>Burger Ekstra Double</h3>
+            <div class="price">Rp 25.000</div>
+          </div>
+        </div>
+        <a href="#" class="btn">check out </a>
+      </div>
+    </header>
+    <!-- -------------------------------------------HEADER SECTION -->
+
+    <!-- -------------------------------------------CONTACT SECTION -->
+    <section class="contact" id="contact">
+      <h1 class="heading">Kontak <span>Kami</span></h1>
+      <div class="row">
+        <form>
+          <div class="inputBox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="nama" id="nama" required autocomplete="off"/>
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="email" id="email" required autocomplete="off"/>
+          </div>
+          </label>
+          <div class="inputBox">
+            <i class="fas fa-phone"></i>
+            <input type="number" placeholder="nomor HP" id="nohp" required autocomplete="off"/>
+          </div>
+          <div>
+            <label class="radio">
+            <input type="radio" name="radio" id="radio1" value="Laki-laki"/>
+            <label class="jk">LAKI-LAKI</label>
+            <span class="check"></span>
+          </label>
+          </div>
+          <div>
+              <label class="radio">
+            <input type="radio" name="radio" id="radio2" value="Perempuan"/> 
+            <label class="jk">PEREMPUAN</label>
+            <span class="check"></span>
+          </label>
+          </div>
+          <div class="select">
+            <label class="kota">Kota Anda </label>
+            <select class="select" id="kota" required>
+              <option value="Samarinda">Samarinda</option>
+              <option value="Sangatta">Sangatta</option>
+              <option value="Balikpapan">Balikpapan</option>
+              <option value="Bontang">Bontang</option>
+            </select>
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-message"></i>
+            <textarea name="pesan" id="isi" cols="120" rows="5" placeholder="Isi pesan mu..." autocomplete="off" required></textarea>
+          </div>
+          <div class="checkbox">
+            <div class="pilih">
+              <input type="checkbox" name="Kerja" id="kerja" value="Sudah Bekerja">
+              <label class="kota"> Apakah Anda Sudah Bekerja?</label>
+            </div>
+          </div>
+            <input type="submit" class="btn btn-primary" id="kirim" value="Kirim"/>
+          <button type="button" class="btn btn-primary">
+            <a href="pesan.html">Lihat pesan</a></button>
+        </form>
+      </div>
+    </section>
+    <!-- -------------------------------------------CONTACT SECTION -->
+
+    <!-- -------------------------------------------FOOTER SECTION -->
+    <section class="footer">
+      <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="credit">FastFood Ajha <span>Dari Ahmad Yunus</span> | Praktikum Sistem Informasi</div>
+    </section>
+    <!-- -------------------------------------------FOOTER SECTION -->
+
+    <script src="./script/script.js"></script>
+    <script src="./script/contact.js"></script>
+  </body>
+</html>
